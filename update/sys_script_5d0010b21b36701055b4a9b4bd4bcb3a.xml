@@ -34,34 +34,14 @@
 	var rightnow = new GlideDateTime();
 	// Create a GlideDateTime object for the When needed date
 	var whenNeeded = new GlideDateTime(current.u_when_needed);
-	
-	gs.info("zero pass");
+
 	// If the When needed date is before rightnow, do not write the record to the database
 	// Output an error message to the screen
 	if(whenNeeded.before(rightnow)){
-		gs.info("zero pass");
 		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
 		current.setAbortAction(true);
 	}
-	gs.info("first pass");
-	//GetLogged in User
-	//var currentUser = gs.getUserID();
-		
-	//Iterate records where logged in user exist in created by, state is requested, and created date is today.
-	var myObj = new GlideRecord("x_snc_needit_needit");
-myObj.addEncodedQuery("sys_created_by=@javascript:gs.getUserID()^sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^state=13");
-	myObj.query();
-	
-	// place code to check if returned row count is null or zero
-	var grCount = myObj.getRowCount();
 
-	gs.info("GlideRecord Query matched " + grCount + " records");
-	if (grCount == 0) {
-		gs.addErrorMessage("You cannot submit NeedIt requests for today. First Pass");
-		current.setAbortAction(true);
-	}
-
-	gs.info("second pass");
 	// Get the date portion of rightnow and whenNeeded (no timestamp)
 	var today = rightnow.getLocalDate();
 	var istoday = whenNeeded.getLocalDate();
@@ -79,7 +59,7 @@ myObj.addEncodedQuery("sys_created_by=@javascript:gs.getUserID()^sys_created_onO
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d0010b21b36701055b4a9b4bd4bcb3a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -87,7 +67,7 @@ myObj.addEncodedQuery("sys_created_by=@javascript:gs.getUserID()^sys_created_onO
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_5d0010b21b36701055b4a9b4bd4bcb3a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-28 08:50:17</sys_updated_on>
+        <sys_updated_on>2021-09-29 01:01:55</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
