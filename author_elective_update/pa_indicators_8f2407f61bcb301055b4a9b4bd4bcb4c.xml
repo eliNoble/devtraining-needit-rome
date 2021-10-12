@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="DELETE">
+        <aggregate>1</aggregate>
+        <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions/>
+        <contributor/>
+        <cube display_value="NeedIt.ThisMonth">caff7ef21bcb301055b4a9b4bd4bcb5f</cube>
+        <data_source/>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>NeedIt: NeedIt requests due monthly measured as a count (#). It is the sum of the indicator source: NeedIt.ThisMonth.</description>
+        <direction>1</direction>
+        <display>true</display>
+        <excluded_statistics/>
+        <field>complete</field>
+        <forecast_base_periods>1</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>2</forecast_base_type>
+        <forecast_lower_limit/>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>3</forecast_periods>
+        <forecast_upper_limit/>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
+        <frequency>40</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <id>135</id>
+        <key>false</key>
+        <label/>
+        <linked_indicator/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>NeedIt: Due Monthly</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>2</related_breakdowns>
+        <related_jobs>4</related_jobs>
+        <render_continuous_lines>false</render_continuous_lines>
+        <role_override>false</role_override>
+        <roles/>
+        <score_periods>-1</score_periods>
+        <scores_modified_at>2021-10-11 08:19:49</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-11 06:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f2407f61bcb301055b4a9b4bd4bcb4c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NeedIt: Due Monthly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_indicators_8f2407f61bcb301055b4a9b4bd4bcb4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-11 09:29:58</sys_updated_on>
+        <type>1</type>
+        <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
+        <users/>
+        <value_when_nil>0</value_when_nil>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+    <sys_translated_text action="DELETE" query="documentkey=8f2407f61bcb301055b4a9b4bd4bcb4c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4c3b4af0db443f400b9d21c4059619d8</instance_id>
+        <instance_name>dev74569</instance_name>
+        <name>pa_indicators_8f2407f61bcb301055b4a9b4bd4bcb4c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
+    <pa_indicators action="INSERT_OR_UPDATE">
+        <aggregate>1</aggregate>
+        <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
+        <benchmarking>false</benchmarking>
+        <calendar>standard</calendar>
+        <calendar_freq/>
+        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_records>true</collect_records>
+        <conditions/>
+        <contributor/>
+        <cube display_value="NeedIt.ThisMonth">caff7ef21bcb301055b4a9b4bd4bcb5f</cube>
+        <data_source/>
+        <default_aggregate/>
+        <default_chart_type>line</default_chart_type>
+        <description>NeedIt: NeedIt requests due monthly measured as a count (#). It is the sum of the indicator source: NeedIt.ThisMonth.</description>
+        <direction>1</direction>
+        <display>true</display>
+        <excluded_statistics/>
+        <field>complete</field>
+        <forecast_base_periods>1</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>2</forecast_base_type>
+        <forecast_lower_limit/>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>3</forecast_periods>
+        <forecast_upper_limit/>
+        <formula/>
+        <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
+        <frequency>40</frequency>
+        <groups/>
+        <has_managed_indicators>false</has_managed_indicators>
+        <id>135</id>
+        <key>false</key>
+        <label/>
+        <linked_indicator/>
+        <live_group_profile/>
+        <managed_breakdown/>
+        <managed_element/>
+        <managing_indicator/>
+        <name>NeedIt: Due Monthly</name>
+        <order/>
+        <override_periods>false</override_periods>
+        <precision>0</precision>
+        <related_breakdowns>2</related_breakdowns>
+        <related_jobs>4</related_jobs>
+        <render_continuous_lines>false</render_continuous_lines>
+        <role_override>false</role_override>
+        <roles/>
+        <score_periods>-1</score_periods>
+        <scores_modified_at>2021-10-11 08:19:49</scores_modified_at>
+        <script/>
+        <scripted>false</scripted>
+        <show_delta>true</show_delta>
+        <show_realtime_score>false</show_realtime_score>
+        <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
+        <sys_class_name>pa_indicators</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-11 06:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f2407f61bcb301055b4a9b4bd4bcb4c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NeedIt: Due Monthly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_indicators_8f2407f61bcb301055b4a9b4bd4bcb4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-11 09:29:58</sys_updated_on>
+        <type>1</type>
+        <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
+        <users/>
+        <value_when_nil>0</value_when_nil>
+        <visible_to>2</visible_to>
+    </pa_indicators>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f2407f61bcb301055b4a9b4bd4bcb4c"/>
+</record_update>]]></payload>
+        <payload_hash>-696195023</payload_hash>
+        <record_name>NeedIt: Due Monthly</record_name>
+        <reverted_from/>
+        <source>64e393431b4b701055b4a9b4bd4bcbc6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 01:48:01</sys_created_on>
+        <sys_id>00f3d7431b4b701055b4a9b4bd4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c722f68380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 01:48:01</sys_updated_on>
+        <type>Indicator</type>
+        <update_guid>4cf3d743394b7010c7281a538aef20df</update_guid>
+        <update_guid_history>4cf3d743394b7010c7281a538aef20df:0,dab39b03544b7010c5fc1ffc6b1fd41d:-1807400357,8eb35b031b4b7010b34649a519ca316a:-1701672473,69b35b032b4b70106321b250dbecec14:1656548456,91b31b03eb4b701091b3c161c327a39e:30045258,05b31b03774b7010316f1e597cc88373:716040388,b673dfcf480b70109af07b38204f6ef8:0,d36270834a437010f98d917c6e590632:693650420,2a623083ad437010a77b5d049312629a:799378304,96623083a24370104cf909656ee67166:-137368063,866230835043701047bc6f82d6469323:-1763871261,7d62fc436b43701013b0d79b92bb50f9:647372038,c11433328b8f30107eaf82750a88510c:-289374329,7767ef36364f30101b465a9479cbaa46:377407976,659363b22c4f30101a00aea8f45891be:-394464289,423363b2e44f3010920da493fe243935:-556624161,b191637ea60f3010f01bcf04a7f1f668:-394464289,e09993ba660f30100a02964aaaaa827f:-511883230,6f3117f2e40f3010d9fc2a420c74da70:1199431468,503013b28b0f3010890b60322ac64135:110430738,a5888fbac8cb3010552ff8acd532ae45:-62724470,5d888fbaf6cb30100836e01ea4db122c:874021897,1418c7ba58cb30107fceed623134c1b3:-368496208,d418c7bad3cb30101914a1a5eb7200a1:568250159,e1948bf659cb301056f6a682cc0cf919:1413613165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt: Due Monthly">0e12674f1b4b701055b4a9b4bd4bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 02:49:52</sys_created_on>
+        <sys_db_object display_value="" name="pa_indicators">pa_indicators</sys_db_object>
+        <sys_id>0ac77e2468bb45f29cd5ff38c6211c09</sys_id>
+        <sys_metadata>8f2407f61bcb301055b4a9b4bd4bcb4c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt: Due Monthly</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>pa_indicators_8f2407f61bcb301055b4a9b4bd4bcb4c</sys_update_name>
+        <sys_update_version display_value="pa_indicators_8f2407f61bcb301055b4a9b4bd4bcb4c">00f3d7431b4b701055b4a9b4bd4bcbe0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 02:49:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
