@@ -7,6 +7,7 @@
         <auto_gen>false</auto_gen>
         <category/>
         <cond_question>always</cond_question>
+        <condition/>
         <correct_answer>7</correct_answer>
         <correct_answer_checkbox>1</correct_answer_checkbox>
         <correct_answer_choice/>
@@ -22,9 +23,11 @@
         <displayed_when_template/>
         <displayed_when_yesno/>
         <duration/>
+        <field_validation/>
         <mandatory>true</mandatory>
         <max>500</max>
         <max_weight/>
+        <maximum_normalization_input>false</maximum_normalization_input>
         <method>assessment</method>
         <metric_type display_value="ME's Identity Theft Quiz">6eaacb57db1033407520f5861d961927</metric_type>
         <min>1</min>
